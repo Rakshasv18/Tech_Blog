@@ -8,9 +8,9 @@ Description:
 
 
 Prerequisites:
-python
-MySQL 
-MySQL workbench
+python,
+MySQL,
+MySQL workbench.
 
 Tools that need to be installed before running the project.
 Python (version 3.x)
