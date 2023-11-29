@@ -23,7 +23,7 @@ Installation:
 
 
 # Clone the repository
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Rakshasv18/Tech_Blog.git
 
 # Navigate to the project directory
 cd your-repo
