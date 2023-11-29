@@ -1,0 +1,83 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='./css/globals.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='./css/style.css') }}" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="overlap-group">
+            <div class="group">
+              <div class="div">
+                <div class="text-wrapper">M</div>
+                <div class="text-wrapper-2">THE</div>
+              </div>
+              <div class="text-wrapper-3">BLOGS</div>
+            </div>
+            <div class="rectangle"></div>
+            <div class="overlap-group-wrapper">
+              <body>
+                <form method="POST">
+                    <div class="overlap-2">
+                        <input type="text" id="umich_id" name="umich_id" placeholder="Type your UMID Here" />
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </body>
+            
+          <div class="text-wrapper-5">Login Page</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='./css/globals_1.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='./css/style_1.css') }}" />
+</head>
+
+<body>
+    <div class="page">
+        <div class="overlap-wrapper">
+            <div class="overlap">
+                <div class="overlap-group">
+                    <div class="group">
+                        <div class="div">
+                            <div class="text-wrapper">M</div>
+                            <div class="text-wrapper-2">THE</div>
+                        </div>
+                        <div class="text-wrapper-3">BLOGS</div>
+                    </div>
+                    <div class="rectangle"></div>
+                    <div class="overlap-group-wrapper">
+                        <!-- Keep the form only inside the "Login Page" section -->
+                        <form method="POST">
+                            <div class="overlap-2">
+                                <input type="text" id="umich_id" name="umich_id" placeholder="Type your UMID Here" />
+                            </div>
+                            <button type="submit">Submit</button>
+                        </form>
+                        <script> function handleClick(groupNumber) {
+                          // // Handle click for each group
+                          // alert('scroll ' +' up!');
+                  
+                              // Redirect to the login page
+                          window.location.href = '/page2.html'; 
+                        }</script>
+                           
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+

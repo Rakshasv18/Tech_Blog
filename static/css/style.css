@@ -1,0 +1,121 @@
+.page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.page .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 1728px;
+  height: 1117px;
+}
+
+.page .overlap-group {
+  position: relative;
+  height: 1117px;
+  background-image: url('./img/rectangle-1.svg');
+  background-color: #001A34;
+  background-size: 100% 100%;
+}
+
+.page .text-wrapper {
+  top: 51px;
+  left: 1450px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: normal;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.page .rectangle {
+  width: 1728px;
+  height: 29px;
+  top: 1059px;
+  left: 0;
+  position: absolute;
+  background-color: #f1bb00;
+}
+
+.page .image {
+  position: absolute;
+  width: 96px;
+  height: 67px;
+  top: 570px;
+  left: 1469px;
+  object-fit: cover;
+}
+
+.page .div {
+  width: 9px;
+  height: 67px;
+  top: 568px;
+  left: 1565px;
+  position: absolute;
+  background-color: #f1bb00;
+}
+
+.page .welcome-wolverines {
+  top: 478px;
+  left: 99px;
+  -webkit-text-stroke: 2px #ffffff;
+  color: transparent;
+  font-size: 112px;
+  line-height: 91.5px;
+  position: absolute;
+  font-family: "Manjari", Helvetica;
+  background-color: #001A34;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.page .span {
+  color: #ffffff;
+}
+
+.page .text-wrapper-2 {
+  color: #f1bb00;
+}
+
+.page .group {
+  position: absolute;
+  width: 180px;
+  height: 128px;
+  top: 550px;
+  left: 790px;
+}
+
+.page .polygon {
+  position: absolute;
+  width: 154px;
+  height: 50px;
+  top: 0;
+  left: 12px;
+}
+
+.page .text-wrapper-3 {
+  position: absolute;
+  top: 81px;
+  left: 0;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.page .rectangle-2 {
+  width: 680px;
+  height: 11px;
+  top: 665px;
+  left: 99px;
+  position: absolute;
+  background-color: #f1bb00;
+}
