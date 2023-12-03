@@ -1,0 +1,53 @@
+<button class="button" data-el="button-1">Try Again - Invalid UMID</button>
+<style>
+  .button {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    appearance: none;
+    background-color: rgba(248, 197, 28, 1);
+    color: rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    max-width: 500px;
+    margin: 83px auto 92px;
+    padding: 15px 25px;
+  }
+</style>
+<script>
+  (() => {
+    const state = {};
+    let context = null;
+    let nodesToDestroy = [];
+    let pendingUpdate = false;
+
+    function destroyAnyNodes() {
+      // destroy current view template refs before rendering again
+      nodesToDestroy.forEach((el) => el.remove());
+      nodesToDestroy = [];
+    }
+
+    // Function to update data bindings and loops
+    // call update() when you mutate state and need the updates to reflect
+    // in the dom
+    function update() {
+      if (pendingUpdate === true) {
+        return;
+      }
+      pendingUpdate = true;
+
+      document.querySelectorAll("[data-el='button-1']").forEach((el) => {
+        el.setAttribute("openLinkInNewTab", false);
+      });
+
+      destroyAnyNodes();
+
+      pendingUpdate = false;
+    }
+
+    // Update with initial state on first load
+    update();
+  })();
+</script>

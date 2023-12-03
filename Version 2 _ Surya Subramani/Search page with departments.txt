@@ -1,0 +1,665 @@
+<div class="div">
+  <div class="div-2">
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/c55ac4aecc9e9dfd4dac0bf1f286ae29d6767cc78697a776b221359c494386ff?apiKey=45bfd211e840464ea1d628de5a2948ce&"
+      class="img"
+    />
+    <div class="div-3">
+      <div class="div-4">
+        <div class="column">
+          <div class="div-5">
+            <div class="div-6">
+              Artificial
+              <br />
+              Intelligence
+            </div>
+            <button class="button" data-el="button-1">Click me!</button>
+          </div>
+        </div>
+        <div class="column-2">
+          <div class="div-7">
+            <div class="div-8">
+              Software
+              <br />
+              Engineering
+            </div>
+            <button class="button" data-el="button-2">Click me!</button>
+          </div>
+        </div>
+        <div class="column-3">
+          <div class="div-9">
+            <div class="div-10">
+              Automotive
+              <br />
+              and EV
+            </div>
+            <button class="button" data-el="button-3">Click me!</button>
+          </div>
+        </div>
+        <div class="column-4">
+          <div class="div-11">
+            <div class="div-12">Cyber Security</div>
+            <button class="button-2" data-el="button-4">Click me!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="div-13">
+      <div class="div-14">
+        <div class="column-5">
+          <div class="div-15">
+            <div class="div-16">
+              Data Science and
+              <br />
+              Analytics
+            </div>
+            <button class="button" data-el="button-5">Click me!</button>
+          </div>
+        </div>
+        <div class="column-6">
+          <div class="div-17">
+            <div class="div-18">
+              <p>Embedded</p>
+              <p>Systems</p>
+            </div>
+            <button class="button" data-el="button-6">Click me!</button>
+          </div>
+        </div>
+        <div class="column-7">
+          <div class="div-19">
+            <div class="div-20">
+              <p style="text-indent: 1em">Power</p>
+              <p style="text-indent: 1em">Engineering</p>
+            </div>
+            <button class="button" data-el="button-7">Click me!</button>
+          </div>
+        </div>
+        <div class="column-8">
+          <button class="button-3" data-el="button-8">Click me!</button>
+        </div>
+        <div class="column-9">
+          <div class="div-21">
+            Mechanical
+            <br />
+            Engineering
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="div-22">
+      <div class="div-23">Search Page</div>
+      <img
+        loading="lazy"
+        srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/ef59b745c110c579093c0f2b99705d380a5cafdaf6b11605112c4d51ecf83c27?apiKey=45bfd211e840464ea1d628de5a2948ce&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ef59b745c110c579093c0f2b99705d380a5cafdaf6b11605112c4d51ecf83c27?apiKey=45bfd211e840464ea1d628de5a2948ce&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ef59b745c110c579093c0f2b99705d380a5cafdaf6b11605112c4d51ecf83c27?apiKey=45bfd211e840464ea1d628de5a2948ce&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ef59b745c110c579093c0f2b99705d380a5cafdaf6b11605112c4d51ecf83c27?apiKey=45bfd211e840464ea1d628de5a2948ce&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ef59b745c110c579093c0f2b99705d380a5cafdaf6b11605112c4d51ecf83c27?apiKey=45bfd211e840464ea1d628de5a2948ce&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ef59b745c110c579093c0f2b99705d380a5cafdaf6b11605112c4d51ecf83c27?apiKey=45bfd211e840464ea1d628de5a2948ce&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ef59b745c110c579093c0f2b99705d380a5cafdaf6b11605112c4d51ecf83c27?apiKey=45bfd211e840464ea1d628de5a2948ce&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ef59b745c110c579093c0f2b99705d380a5cafdaf6b11605112c4d51ecf83c27?apiKey=45bfd211e840464ea1d628de5a2948ce&"
+        class="img-2"
+      />
+    </div>
+  </div>
+</div>
+<style>
+  .div {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div-2 {
+    disply: flex;
+    flex-direction: column;
+    fill: #001a34;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    min-height: 1117px;
+    width: 100%;
+    align-items: center;
+    padding: 46px 80px;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .div-3 {
+    position: relative;
+    align-self: stretch;
+    margin: 146px 21px 0 19px;
+    padding: 0 1px;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      max-width: 100%;
+      margin: 40px 10px 0 0;
+    }
+  }
+  .div-4 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .div-5 {
+    border-radius: 91px;
+    border: 10px solid #002447;
+    background-color: #f1bb00;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 57px;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      margin-top: 34px;
+      padding: 0 20px;
+    }
+  }
+  .div-6 {
+    color: #002447;
+    white-space: nowrap;
+    margin: 76px -2px 53px 0;
+    font: 700 27px Manjari, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      white-space: initial;
+      margin: 40px 0;
+    }
+  }
+  .button {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    appearance: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 25px;
+  }
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+  .div-7 {
+    border-radius: 91px;
+    border: 10px solid #002447;
+    background-color: #f1bb00;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 48px;
+  }
+  @media (max-width: 991px) {
+    .div-7 {
+      margin-top: 34px;
+      padding: 0 20px;
+    }
+  }
+  .div-8 {
+    color: #002447;
+    white-space: nowrap;
+    margin: 80px 0 50px;
+    font: 700 27px Manjari, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-8 {
+      white-space: initial;
+      margin: 40px 0;
+    }
+  }
+  .column-3 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-3 {
+      width: 100%;
+    }
+  }
+  .div-9 {
+    border-radius: 91px;
+    border: 10px solid #002447;
+    background-color: #f1bb00;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    padding: 50px 60px 50px 54px;
+  }
+  @media (max-width: 991px) {
+    .div-9 {
+      margin-top: 34px;
+      padding: 0 20px;
+    }
+  }
+  .div-10 {
+    color: #002447;
+    white-space: nowrap;
+    margin: 76px 0 58px;
+    font: 700 27px Manjari, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-10 {
+      white-space: initial;
+      margin: 40px 0;
+    }
+  }
+  .column-4 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 25%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-4 {
+      width: 100%;
+    }
+  }
+  .div-11 {
+    border-radius: 91px;
+    border: 10px solid #002447;
+    background-color: #f1bb00;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 60px;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      margin-top: 34px;
+      padding: 0 20px;
+    }
+  }
+  .div-12 {
+    color: #002447;
+    white-space: nowrap;
+    margin: 80px 0 50px;
+    font: 700 27px Manjari, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-12 {
+      white-space: initial;
+      margin: 40px 0;
+    }
+  }
+  .button-2 {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 46px;
+    appearance: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 25px;
+  }
+  .div-13 {
+    position: relative;
+    align-self: stretch;
+    margin: 44px 21px 0 19px;
+    padding: 0 1px;
+  }
+  @media (max-width: 991px) {
+    .div-13 {
+      max-width: 100%;
+      margin: 40px 10px 0 0;
+    }
+  }
+  .div-14 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div-14 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column-5 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 20%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column-5 {
+      width: 100%;
+    }
+  }
+  .div-15 {
+    border-radius: 91px;
+    border: 10px solid #002447;
+    background-color: #f1bb00;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 60px;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      margin-top: 34px;
+      padding: 0 20px;
+    }
+  }
+  .div-16 {
+    color: #002447;
+    text-align: center;
+    margin: 76px 0 47px;
+    font: 700 27px Manjari, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-16 {
+      margin: 40px 0;
+    }
+  }
+  .column-6 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 20%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-6 {
+      width: 100%;
+    }
+  }
+  .div-17 {
+    border-radius: 91px;
+    border: 10px solid #002447;
+    background-color: #f1bb00;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 48px 50px 60px;
+  }
+  @media (max-width: 991px) {
+    .div-17 {
+      margin-top: 34px;
+      padding: 0 20px;
+    }
+  }
+  .div-18 {
+    color: #002447;
+    white-space: nowrap;
+    margin: 76px 0 53px;
+    font: 700 27px Manjari, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-18 {
+      white-space: initial;
+      margin: 40px 0 40px 3px;
+    }
+  }
+  .column-7 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 20%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-7 {
+      width: 100%;
+    }
+  }
+  .div-19 {
+    border-radius: 91px;
+    border: 10px solid #002447;
+    background-color: #f1bb00;
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 60px;
+  }
+  @media (max-width: 991px) {
+    .div-19 {
+      margin-top: 34px;
+      padding: 0 20px;
+    }
+  }
+  .div-20 {
+    color: #002447;
+    white-space: nowrap;
+    margin: 76px 0 53px;
+    font: 700 27px Manjari, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-20 {
+      white-space: initial;
+      margin: 40px 0;
+    }
+  }
+  .column-8 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 20%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-8 {
+      width: 100%;
+    }
+  }
+  .button-3 {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 46px;
+    appearance: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 25px;
+  }
+  .column-9 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 20%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-9 {
+      width: 100%;
+    }
+  }
+  .div-21 {
+    color: #002447;
+    white-space: nowrap;
+    border-radius: 91px;
+    border: 10px solid #002447;
+    background-color: #f1bb00;
+    position: relative;
+    flex-grow: 1;
+    justify-content: center;
+    width: 100%;
+    padding: 126px 37px 103px;
+    font: 700 27px Manjari, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-21 {
+      white-space: initial;
+      margin-top: 34px;
+      padding: 40px 20px;
+    }
+  }
+  .div-22 {
+    position: relative;
+    display: flex;
+    margin-top: 133px;
+    width: 100%;
+    max-width: 1435px;
+    align-items: end;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .div-22 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+  }
+  .div-23 {
+    color: #fff;
+    margin-top: 117px;
+    flex-grow: 1;
+    white-space: nowrap;
+    font: 700 20px Manjari, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-23 {
+      margin-top: 40px;
+      white-space: initial;
+    }
+  }
+  .img-2 {
+    aspect-ratio: 1.52;
+    object-fit: contain;
+    object-position: center;
+    width: 213px;
+    overflow: hidden;
+    align-self: stretch;
+    max-width: 100%;
+  }
+</style>
+<script>
+  (() => {
+    const state = {};
+
+    let context = null;
+    let nodesToDestroy = [];
+    let pendingUpdate = false;
+
+    function destroyAnyNodes() {
+      // destroy current view template refs before rendering again
+      nodesToDestroy.forEach((el) => el.remove());
+      nodesToDestroy = [];
+    }
+
+    // Function to update data bindings and loops
+    // call update() when you mutate state and need the updates to reflect
+    // in the dom
+    function update() {
+      if (pendingUpdate === true) {
+        return;
+      }
+      pendingUpdate = true;
+
+      document.querySelectorAll("[data-el='button-1']").forEach((el) => {
+        el.setAttribute("openLinkInNewTab", false);
+      });
+
+      document.querySelectorAll("[data-el='button-2']").forEach((el) => {
+        el.setAttribute("openLinkInNewTab", false);
+      });
+
+      document.querySelectorAll("[data-el='button-3']").forEach((el) => {
+        el.setAttribute("openLinkInNewTab", false);
+      });
+
+      document.querySelectorAll("[data-el='button-4']").forEach((el) => {
+        el.setAttribute("openLinkInNewTab", false);
+      });
+
+      document.querySelectorAll("[data-el='button-5']").forEach((el) => {
+        el.setAttribute("openLinkInNewTab", false);
+      });
+
+      document.querySelectorAll("[data-el='button-6']").forEach((el) => {
+        el.setAttribute("openLinkInNewTab", false);
+      });
+
+      document.querySelectorAll("[data-el='button-7']").forEach((el) => {
+        el.setAttribute("openLinkInNewTab", false);
+      });
+
+      document.querySelectorAll("[data-el='button-8']").forEach((el) => {
+        el.setAttribute("openLinkInNewTab", false);
+      });
+
+      destroyAnyNodes();
+
+      pendingUpdate = false;
+    }
+
+    // Update with initial state on first load
+    update();
+  })();
+</script>
