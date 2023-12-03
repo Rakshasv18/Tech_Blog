@@ -1,4 +1,4 @@
-## Project Title/Name: Tech_Blog
+## Project Title/Name: The M Blog
 
 Description:
 
