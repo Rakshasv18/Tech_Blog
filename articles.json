@@ -1,0 +1,29 @@
+{
+  "articles": [
+    {
+      "articleID": "1",
+      "articleName": "Article 1",
+      "authorName": "Author Name"
+    },
+    {
+      "articleID": "2",
+      "articleName": "Article 2",
+      "authorName": "Author Name"
+    },
+    {
+      "articleID": "3",
+      "articleName": "Article 3",
+      "authorName": "Author Name"
+    },
+    {
+      "articleID": "4",
+      "articleName": "Article 4",
+      "authorName": "Author Name"
+    },
+    {
+      "articleID": "5",
+      "articleName": "Article 5",
+      "authorName": "Author Name"
+    }
+  ]
+}

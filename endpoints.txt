@@ -1,0 +1,7 @@
+Flask API
+1. /login                       takes UMID as attribute and returns success or failure
+2. /welcome-message             returns welcome message
+3. /topics                      returns topics array in json with topic id
+4. /topics/{id}/articles        returns articles array in json with article id
+5. /topics/{id}/articles/{id}   returns article in json
+6. /topics/{id}                 might not be used but good to have(info about topic)
