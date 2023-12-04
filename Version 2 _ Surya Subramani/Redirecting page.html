@@ -1,0 +1,197 @@
+<div class="div">
+  <div class="div-2">
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/cd2e6d182cf7099483fa3333a8d558046140af2958e52968f61cc0b28616bbe6?apiKey=45bfd211e840464ea1d628de5a2948ce&"
+      class="img"
+    />
+    <div class="div-3">
+      <div class="div-4">
+        <div class="div-5">
+          <button class="button" data-el="button-1">Login Page</button>
+        </div>
+      </div>
+      <div class="div-6">
+        <button class="button" data-el="button-2">Article Page</button>
+      </div>
+    </div>
+    <div class="div-7">
+      <span style="color: rgba(255, 255, 255, 1)">
+        C U A-GAIN
+        <br />
+      </span>
+      <span style="color: rgba(0, 36, 71, 1)">Wolverine</span>
+    </div>
+    <div class="div-8">: )</div>
+  </div>
+</div>
+<style>
+  .div {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div-2 {
+    disply: flex;
+    flex-direction: column;
+    fill: #f1bb00;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    min-height: 1117px;
+    width: 100%;
+    align-items: center;
+    padding: 50px 80px;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .div-3 {
+    position: relative;
+    display: flex;
+    margin-top: 126px;
+    width: 100%;
+    max-width: 1330px;
+    padding-right: 80px;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      padding-right: 20px;
+      margin-top: 40px;
+    }
+  }
+  .div-4 {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div-5 {
+    border-radius: 36.5px;
+    background-color: #002447;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 60px;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      padding: 0 20px;
+    }
+  }
+  .button {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    appearance: none;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 25px;
+  }
+  .div-6 {
+    border-radius: 36.5px;
+    background-color: #002447;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 60px;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      padding: 0 20px;
+    }
+  }
+  .div-7 {
+    position: relative;
+    color: #002447;
+    text-align: right;
+    max-width: 404px;
+    align-self: end;
+    margin-top: 245px;
+    font: 900 67px Montserrat, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-7 {
+      font-size: 40px;
+      margin: 40px 4px 0 0;
+    }
+  }
+  .div-8 {
+    position: relative;
+    color: #002447;
+    margin: 101px 17px 116px 0;
+    font: 900 196px Montserrat, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-8 {
+      font-size: 40px;
+      margin: 40px 10px 40px 0;
+    }
+  }
+</style>
+<script>
+  (() => {
+    const state = {};
+
+    let context = null;
+    let nodesToDestroy = [];
+    let pendingUpdate = false;
+
+    function destroyAnyNodes() {
+      // destroy current view template refs before rendering again
+      nodesToDestroy.forEach((el) => el.remove());
+      nodesToDestroy = [];
+    }
+
+    // Function to update data bindings and loops
+    // call update() when you mutate state and need the updates to reflect
+    // in the dom
+    function update() {
+      if (pendingUpdate === true) {
+        return;
+      }
+      pendingUpdate = true;
+
+      document.querySelectorAll("[data-el='button-1']").forEach((el) => {
+        el.setAttribute("openLinkInNewTab", false);
+      });
+
+      document.querySelectorAll("[data-el='button-2']").forEach((el) => {
+        el.setAttribute("openLinkInNewTab", false);
+      });
+
+      destroyAnyNodes();
+
+      pendingUpdate = false;
+    }
+
+    // Update with initial state on first load
+    update();
+  })();
+</script>

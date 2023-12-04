@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f1bb00;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .document {
+      width: 100vw;
+      height: 100vh;
+      overflow-y: scroll;
+      scroll-snap-type: y mandatory;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .page {
+      height: 100vh;
+      width: 100%;
+      scroll-snap-align: start;
+      padding: 20px;
+      box-sizing: border-box;
+      color: #fff; /* Text color on the page */
+    }
+
+    .page:nth-child(even) {
+      background-color: #333; /* Alternate background color for even pages */
+    }
+
+    .finish-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background-color: #fff;
+      color: #f1bb00;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+  <title>The M blogs</title>
+</head>
+<body>
+  <div class="document">
+    <div class="page">
+      <h1>Page 1</h1>
+      <p>Content for page 1 goes here...</p>
+    </div>
+
+    <div class="page">
+      <h1>Page 2</h1>
+      <p>Content for page 2 goes here...</p>
+    </div>
+	  <div class="document">
+    <div class="page">
+      <h1>Page 3</h1>
+      <p>Content for page 3goes here...</p>
+    </div>
+
+    <div class="page">
+      <h1>Page 4</h1>
+      <p>Content for page 4 goes here...</p>
+    </div>
+
+    <!-- Repeat the above structure for additional pages -->
+
+  </div>
+
+  <button class="finish-button">Finish</button>
+
+  <script>
+    document.querySelector('.finish-button').addEventListener('click', () => {
+      alert('Finish button clicked!');
+    });
+  </script>
+</body>
+</html>
