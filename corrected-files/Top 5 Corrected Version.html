@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top 5 Articles</title>
+  <style>
+    body {
+      background-color: #002447;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+	
+	.logo {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .article-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      width: 80%;
+      max-width: 600px;
+    }
+
+    .article {
+      display: none;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Placeholder for the logo -->
+    <img class="logo" src="image-3.png" alt="Logo">
+  </header>
+
+  <div class="article-container">
+    <div class="article" id="article1">
+      <h2>Article 1</h2>
+      <p><strong>Author:</strong> John Doe</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <button onclick="showArticle('article1')">Show Article 1</button>
+  </div>
+
+  <div class="article-container">
+    <div class="article" id="article2">
+      <h2>Article 2</h2>
+      <p><strong>Author:</strong> Jane Doe</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <button onclick="showArticle('article2')">Show Article 2</button>
+  </div>
+
+  <div class="article-container">
+    <div class="article" id="article3">
+      <h2>Article 3</h2>
+      <p><strong>Author:</strong> Alex Smith</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <button onclick="showArticle('article3')">Show Article 3</button>
+  </div>
+
+  <div class="article-container">
+    <div class="article" id="article4">
+      <h2>Article 4</h2>
+      <p><strong>Author:</strong> Sarah Johnson</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <button onclick="showArticle('article4')">Show Article 4</button>
+  </div>
+
+  <div class="article-container">
+    <div class="article" id="article5">
+      <h2>Article 5</h2>
+      <p><strong>Author:</strong> Michael Williams</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <button onclick="showArticle('article5')">Show Article 5</button>
+  </div>
+
+  <script>
+    function showArticle(articleId) {
+      var article = document.getElementById(articleId);
+      article.style.display = (article.style.display === 'none' || article.style.display === '') ? 'block' : 'none';
+    }
+  </script>
+
+</body>
+</html>
