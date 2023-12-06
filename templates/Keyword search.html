@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #002447;
+        }
+
+        .search-container {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .search-input {
+            padding: 10px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            width: 200px;
+            background-color: #fff;
+            color: #002447;
+            font-size: 16px;
+        }
+
+        .search-button {
+            padding: 10px;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            background-color: #002447;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="search-container">
+        <!-- <input type="text" class="search-input" placeholder="Enter your Keyword">
+        <button class="button" data-el="button" onclick="tryAgainClick()">Search</button> -->
+        <!-- Inside your Top_Articles.html file -->
+        <form method="post" action="/display_articles">
+            <label for="keyword">Enter Keyword:</label>
+            <input type="text" id="keyword" name="keyword">
+            <button type="submit">Search</button>
+        </form>
+
+
+        <script>
+          function tryAgainClick() {
+            // Redirect to the login page
+            window.location.href = '/display_articles';
+          }
+          </script>
+    </div>
+
+</body>
+</html>
