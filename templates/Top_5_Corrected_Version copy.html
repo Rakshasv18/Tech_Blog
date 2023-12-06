@@ -1,0 +1,75 @@
+<!-- top_articles.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Articles</title>
+    <style>
+        body {
+            background-color: #002447;
+            color: yellow;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .article-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            width: 80%;
+            max-width: 600px;
+            cursor: pointer; /* Add cursor pointer for better UX */
+            transition: all 0.3s ease; /* Add transition for smooth animation */
+        }
+
+        .article-container.expanded {
+            overflow: hidden;
+            height: 5000px; /* Set the desired height when expanded */
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 10; /* Number of lines to show */
+            -webkit-box-orient: vertical;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Top Articles</h1>
+    </header>
+
+    {% if articles_dict_list %}
+        {% for article in articles_dict_list %}
+            <div class="article-container" onclick="toggleArticle(this)">
+                <h2>{{ article.title }}</h2>
+                <p><strong>Author:</strong> {{ article.author }}</p>
+                <p>{{ article.content }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No articles found.</p>
+    {% endif %}
+
+    <script>
+        function toggleArticle(articleContainer) {
+            articleContainer.classList.toggle('expanded');
+        }
+    </script>
+</body>
+</html>
